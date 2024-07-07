@@ -64,3 +64,27 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## Comandos escenciales para el proyecto
+* Para crear el proyecto
+  * composer create-project laravel/laravel nombre_proyecto
+  * Seleccionar jetstream
+  * Seleccionar Mysql
+  * Yes para crear repositorio en github
+  * npm install
+* Para crear modelos
+  * php artisan make model:nombre_del_modelo
+* Para controladores
+  * php artisan make controller:nombre_del_controlador 
+* Para migraciones
+  * php artisan make:migration create_nombre_de_tabla_table
+* Para seeders
+  * php artisan make:seeder EmpleadoSeeder
+* Migrar a base de datos
+  * php artisan migrate --seed
+  * php artisan migrate:refresh --seed
+* Para obtener Caarbon
+  * composer require nesbot/carbon
+* Para compilar
+  * npm run dev
+  * php artisan serve
